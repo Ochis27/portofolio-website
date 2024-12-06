@@ -81,7 +81,7 @@ export const experiencesData = [
     description: `Expert in full-stack development, I specialize in building dynamic web applications using **React**, TypeScript, and Zustand for state management. I design scalable backend systems with Node.js and ensure secure access through Multi-Factor Authentication (MFA). Proficient in **Docker** for containerization and itHub Actions for CI/CD, I streamline deployment pipelines and enhance operational efficiency.  
 Leveraging AWS for hosting, I deliver high-performance applications with global scalability and reliability. I craft reusable, modular components for maintainable codebases and create comprehensive technical documentation to support deployment and user onboarding. Additionally, I excel in implementing robust portfolio management systems tailored to specific business needs.`,
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - Present",
+    date: "2024 - Present",
   },
 ] as const;
 
