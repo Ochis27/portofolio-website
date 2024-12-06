@@ -73,7 +73,15 @@ export const experiencesData = [
     location: "Timisoara, Timis",
     description: `Proficient in C# and PowerShell for cutting-edge application development, I utilize Grafana and Prometheus for efficient IT service monitoring. I streamline new software deployment to ensure flawless integration and deliver expert support for SharePoint and MS Project 2016 Enterprise. I orchestrate strategic plans for advanced service monitoring systems, harness Prometheus for comprehensive monitoring across multiple data sources, and implement Terraform for efficient cloud infrastructure management. With expertise in Grafana, I excel in data visualization and analysis. I also craft detailed documentation for monitoring software to enhance user experience and innovate with Figma for intuitive web design prototypes. Additionally, I have developed versatile cross-platform applications using React, Next.js, TypeScript, TailwindCSS, and SCSS.`,
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - present",
+    date: "2023 - 2024",
+  },
+  {
+    title: "Junior Fullstack Developer",
+    location: "Timisoara, Timis",
+    description: `Expert in full-stack development, I specialize in building dynamic web applications using **React**, TypeScript, and Zustand for state management. I design scalable backend systems with Node.js and ensure secure access through Multi-Factor Authentication (MFA). Proficient in **Docker** for containerization and itHub Actions for CI/CD, I streamline deployment pipelines and enhance operational efficiency.  
+Leveraging AWS for hosting, I deliver high-performance applications with global scalability and reliability. I craft reusable, modular components for maintainable codebases and create comprehensive technical documentation to support deployment and user onboarding. Additionally, I excel in implementing robust portfolio management systems tailored to specific business needs.`,
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - Present",
   },
 ] as const;
 
