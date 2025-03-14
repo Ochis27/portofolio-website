@@ -1,3 +1,4 @@
+import bytesBooks from "@/public/byteBooks.png";
 import filmpire from "@/public/filmpire.png";
 import learningNewFactsDaily from "@/public/learningNewFactsDaily.png";
 import nuronalNetwork from "@/public/nuronalNetwork.png";
@@ -48,16 +49,14 @@ export const experiencesData = [
   {
     title: "Polytechnic University of Timisoara",
     location: "Timisoara, Timis",
-    description:
-      "Currently pursuing a Master's Degree in IT Systems Applied to Production and Services.",
+    description: `I am pursuing a Master's in IT Systems Applied to Production and Services, focusing on integrating advanced technologies into industries. I developed a full-stack salary calculation app using C# with .NET and jQuery to help Romanian employers manage payroll efficiently.`,
     icon: React.createElement(LuGraduationCap),
     date: "2024-2026",
   },
   {
     title: "West University of Timisoara",
     location: "Timisoara, Timis",
-    description:
-      "Pursuing a Master's Degree in Artificial Intelligence and Distributed Computing.",
+    description: `I am pursuing a Master's in AI and Distributed Computing, focusing on machine learning, neural networks, and cybersecurity. I developed a digital certificate management system to issue, verify, and revoke certificates, enhancing secure communication and identity verification.`,
     icon: React.createElement(LuGraduationCap),
     date: "2024-2026",
   },
@@ -78,8 +77,7 @@ export const experiencesData = [
   {
     title: "Junior Fullstack Developer",
     location: "Timisoara, Timis",
-    description: `Expert in full-stack development, I specialize in building dynamic web applications using **React**, TypeScript, and Zustand for state management. I design scalable backend systems with Node.js and ensure secure access through Multi-Factor Authentication (MFA). Proficient in **Docker** for containerization and itHub Actions for CI/CD, I streamline deployment pipelines and enhance operational efficiency.  
-Leveraging AWS for hosting, I deliver high-performance applications with global scalability and reliability. I craft reusable, modular components for maintainable codebases and create comprehensive technical documentation to support deployment and user onboarding. Additionally, I excel in implementing robust portfolio management systems tailored to specific business needs.`,
+    description: `Proficient in full-stack web development, I design and build scalable applications using Next.js and Mendix while optimizing UI/UX for seamless user interaction. I develop robust and efficient solutions, integrating CI/CD pipelines with GitHub Actions and leveraging Docker for consistent deployments across environments. I ensure secure authentication with Single Sign-On (SSO) and manage PostgreSQL databases for reliable data storage. Deploying applications on AWS and Azure, I prioritize high availability, scalability, and security. I enhance performance with state management techniques, streamline workflows with optimized architectures, and document deployment, configuration, and onboarding. Additionally, I specialize in crafting intuitive user interfaces, ensuring smooth and efficient user experiences in enterprise applications.`,
     icon: React.createElement(CgWorkAlt),
     date: "2024 - Present",
   },
@@ -90,7 +88,7 @@ export const projectsData = [
     title: "NEURONAL NETWORK",
     description:
       "I build a neuronal network in Java which is used to detect text from images and it is trained on a MNIST dataset.",
-    tags: ["Java", "JUnit", "MNIST", "Linear Algebra"],
+    tags: ["Java", "JUnit", "MNIST", "Linear Algebra", "Machine Learning"],
     imageUrl: nuronalNetwork,
   },
   {
@@ -125,6 +123,21 @@ export const projectsData = [
     description: `rmtDev is a web application using HTML, CSS, and JavaScript that allows users to find and save remote jobs, share listings via unique links, and manage opportunities effortlessly`,
     tags: ["HTML", "CSS", "Javascript"],
     imageUrl: rmtDev,
+  },
+  {
+    title: "ByteBooks",
+    description: `ByteBooks is a full-stack web application using React, Node.js, and MongoDB that enables users to browse, purchase, and read e-books. It features secure authentication, admin management for e-book listings, and AWS integration for hosting and storage, ensuring scalability and reliability.`,
+    tags: [
+      "React.js",
+      "Epub",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "AWS",
+      "Stripe",
+      "TypeScript",
+    ],
+    imageUrl: bytesBooks,
   },
   {
     title: "FILMPIRE",
